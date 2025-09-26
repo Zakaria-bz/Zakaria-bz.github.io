@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  /* الألوان الأساسية */
+  --color-primary: #4a90e2; /* أزرق فاتح – للأزرار والروابط */
+  --color-secondary: #f39c12; /* برتقالي – دعوات للعمل (CTA) */
+  --color-accent: #9b59b6; /* بنفسجي فاتح – عناصر مميزة */
+
+  /* ألوان الخلفيات */
+  --color-bg-light: rgb(184, 184, 184); /* خلفية صفحات هادئة */
+  --color-bg-dark: #2c3e50; /* خلفية نصوص أو أقسام داكنة */
+
+  /* ألوان النصوص */
+  --color-text-dark: #4378ac; /* نصوص رئيسية */
+  --color-text-light: #e4e4e4; /* نصوص على خلفية داكنة */
+
+  /* ألوان إضافية */
+  --color-success: #2ecc71; /* نجاح أو إشعارات إيجابية */
+  --color-warning: #f8e71c; /* تحذيرات أو عناصر تنبيه */
+  --color-error: #ff6b6b; /* أخطاء أو تنبيهات مهمة */
+}
+
+/* أمثلة استخدام الألوان في عناصر الموقع */
+body {
+  background-color: var(--color-bg-dark);
+  color: var(--color-text-dark);
+  font-family: "Arial", sans-serif;
+}
+
+section .container .container-2 {
+  position: absolute;
+  left: 27%;
+  transform: translatex(-50%);
+}
+
+section .container .title h2 {
+  text-align: center;
+  font-size: 30px;
+  color: var(--color-success);
+  margin-bottom: 16px;
+}
+
+section .container .title hr {
+  width: 12.5%;
+  color: var(--color-primary);
+  margin: 0 auto 30px;
+}
+
+section .container .title h3 {
+  color: var(--color-text-dark);
+  font-size: 30px;
+}
+section .container .title p {
+  font-size: 20px;
+  color: var(--color-text-light);
+}
+section .container .title p:last-of-type {
+  width: 440px;
+  color: var(--color-bg-light);
+}
+
+section .container .title .social-media .social-links a {
+  text-decoration: none;
+  color: white;
+  padding-left: 10px;
+  font-size: 30px;
+}
+
+section .container .title .social-media .social-links img {
+  position: absolute;
+  width: 340px;
+  top: 50%;
+  left: 190%;
+  transform: translate(-20%, -60%);
+}

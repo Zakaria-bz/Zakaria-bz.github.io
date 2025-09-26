@@ -1,0 +1,21 @@
+button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 120px;
+  height: 45px;
+  font-size: 20px;
+  border-radius: 24px;
+  background-color: #fca61f;
+  transition: color 0.5s, width 0.5s, height 0.5s, font-size 0.5s;
+  color: white;
+  border: none;
+}
+
+button:hover {
+  color: black;
+  width: 140px;
+  height: 51px;
+  font-size: 28px;
+}

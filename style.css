@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:root {
+  /* الألوان الأساسية */
+  --color-primary: #4a90e2; /* أزرق فاتح – للأزرار والروابط */
+  --color-primary-2: #76b6ff;
+  --color-secondary: #f39c12; /* برتقالي – دعوات للعمل (CTA) */
+  --color-accent: #9b59b6; /* بنفسجي فاتح – عناصر مميزة */
+
+  /* ألوان الخلفيات */
+  --color-bg-light: rgb(184, 184, 184); /* خلفية صفحات هادئة */
+  --color-bg-dark: #2c3e50; /* خلفية نصوص أو أقسام داكنة */
+
+  /* ألوان النصوص */
+  --color-text-dark: #4378ac; /* نصوص رئيسية */
+  --color-text-light: #e4e4e4; /* نصوص على خلفية داكنة */
+
+  /* ألوان إضافية */
+  --color-success: #2ecc71;
+  --color-warning: #f8e71c;
+  --color-error: #ff6b6b;
+}
+
+body {
+  font-family: "Tajawal", "Poppins", "Cairo", "Roboto", sans-serif;
+  scroll-behavior: smooth;
+  background-color: var(--color-bg-dark);
+  color: var(--color-text-dark);
+}
+
+section {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  background-color: var(--color-bg-dark);
+  height: 50px;
+}
+
+section .container {
+  display: flex;
+  width: 90%;
+  margin: 20px auto auto;
+  justify-content: space-between;
+}
+
+section .container ul {
+  display: flex;
+  list-style: none;
+}
+
+section .container ul li {
+  padding-left: 55px;
+  transform: translatex(-50px);
+}
+
+section .container h2 span {
+  color: var(--color-secondary);
+}
+
+section .container ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  display: inline-block;
+  color: var(--color-text-light);
+  transition: all 0.4s ease;
+}
+
+section .container ul li:hover a {
+  color: var(--color-secondary);
+  transform: scale(1.1);
+  font-weight: 500;
+}
+
+section .container h3 {
+  font-size: 20px;
+  width: 140px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: var(--color-secondary);
+  color: var(--color-text-light);
+  border: 2px solid var(--color-secondary);
+  transition: background-color 0.6s ease;
+  box-shadow: 0 0 14px var(--color-secondary);
+  margin-right: 20px;
+}
+
+section .container h3:hover {
+  background-color: var(--color-bg-dark);
+  color: var(--color-secondary);
+}
+
+section .container-2 {
+  position: absolute;
+  top: 55%;
+  left: 18%;
+  transform: translate(-25%, -50%);
+  width: 450px;
+}
+
+section .container-2 h2:nth-child(1) {
+  font-size: 45px;
+  color: var(--color-success);
+}
+
+section .container-2 h2 {
+  padding-bottom: 13px;
+  color: var(--color-primary);
+  font-size: 40px;
+}
+
+section .container-2 h2:nth-child(3) {
+  padding-bottom: 13px;
+  color: var(--color-primary-2); /* الأزرق */
+  font-size: 43px;
+}
+section .container-2 p {
+  line-height: 1.6;
+  color: var(--color-text-light);
+}
+
+section .container-2 .button {
+  display: flex;
+}
+
+section .container-2 h3 {
+  font-size: 20px;
+  width: 140px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: var(--color-secondary);
+  color: var(--color-text-light);
+  border: 2px solid var(--color-secondary);
+  transition: background-color 0.6s ease;
+  box-shadow: 0 0 14px var(--color-secondary);
+  margin: 20px 20px;
+}
+
+section .container-2 h3:hover {
+  background-color: var(--color-bg-dark);
+  color: var(--color-secondary);
+}
+
+section .images img {
+  position: absolute;
+  width: 400px;
+  transform: translatey(-50%);
+  top: 50%;
+  right: -140%;
+}

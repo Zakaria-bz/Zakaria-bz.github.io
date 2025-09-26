@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+section .container .title h2 {
+  text-align: center;
+  font-size: 30px;
+  color: rgb(0, 177, 0);
+  margin-bottom: 16px;
+}
+
+section .container .title hr {
+  width: 12.5%;
+  color: rgb(99, 255, 99);
+  margin: 0 auto 30px;
+}
+
+section .container .box-project {
+  margin: 0 0 0 2.5%;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  row-gap: 15px;
+}
+
+section .container .box-project .project {
+  background-color: rgb(48, 48, 48);
+  color: rgb(0, 0, 255);
+  width: 400px;
+  font-size: 20px;
+  height: 260px;
+  display: flex;
+  justify-content: center;
+  padding-top: 16px;
+  border-radius: 16px;
+  transition: all 0.4s;
+}
+
+section .container .box-project .project:hover {
+  transform: scale(1.07);
+}
