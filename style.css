@@ -98,7 +98,7 @@ section .container-2 {
   top: 55%;
   left: 18%;
   transform: translate(-25%, -50%);
-  width: 450px;
+  width: 533px;
 }
 
 section .container-2 h2:nth-child(1) {
@@ -124,6 +124,11 @@ section .container-2 p {
 
 section .container-2 .button {
   display: flex;
+}
+
+section .container-2 .button h3 a {
+  color: white;
+  text-decoration: none;
 }
 
 section .container-2 h3 {
@@ -152,5 +157,5 @@ section .images img {
   width: 400px;
   transform: translatey(-50%);
   top: 50%;
-  right: -140%;
+  right: -120%;
 }
