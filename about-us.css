@@ -61,14 +61,19 @@ section .container .title p:last-of-type {
   color: var(--color-bg-light);
 }
 
-section .container .title .social-media .social-links a {
+section .container .title .social-links a {
   text-decoration: none;
   color: white;
   padding-left: 10px;
   font-size: 30px;
+  transition: all 0.6s;
 }
 
-section .container .title .social-media .social-links img {
+section .container .title .social-links a:hover {
+  color: var(--color-primary);
+}
+
+section .container .title .social-links img {
   position: absolute;
   width: 340px;
   top: 50%;
